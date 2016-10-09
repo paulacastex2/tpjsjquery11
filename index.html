@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Coderhouse</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="js/script.js"></script>
+	</head>
+	<body>
+  
+		<div class="container">
+			<div class="page-header">
+				<h1>Clase Nro 10</h1>
+				<h3>JQuery</h3>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<h4>Nueva Noticia</h4>
+					<form>
+						<div class="form-group">
+							<label for="titulo">T&iacute;tulo:</label>
+							<input type="text" class="form-control" id="titulo">
+						</div>
+						<div class="form-group">
+							<label for="descripcion">Descripci&oacute;n:</label>
+							<textarea class="form-control" rows="5" id="descripcion"></textarea>
+						</div>
+						<div class="form-group">
+							<label for="imagen">Imagen:</label>
+							<input type="text" class="form-control" id="imagen">
+						</div>
+						<button id="boton" type="button" class="btn btn-primary">Agregar</button>
+					</form>
+				</div>
+		    	<div class="col-sm-8">
+		    		<button id="mostrarOcultarListado" type="button" class="btn btn-primary pull-right">Ocultar Noticias</button>
+		    		
+		    		<div id="ordenadores" class="btn-group">
+					  <button id="id" type="button" class="btn btn-primary">ID</button>
+					  <button id="az" type="button" class="btn btn-primary">A-Z</button>
+					  <button id="za" type="button" class="btn btn-primary">Z-A</button>
+					</div>
+
+					<div id="noticias" class="">
+					</div>
+
+		    	</div>
+		 	</div>
+		</div>
+	</body>
+</html> 
